@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://83ialh3gh3og"]
+
+[ext_resource type="Script" uid="uid://btmlx75qu3m5s" path="res://lessons/heath_pack.gd" id="1_ir4ue"]
+[ext_resource type="Texture2D" uid="uid://dknpi2mq4dhpa" path="res://assets/health_icon.svg" id="2_sbvhd"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ghfaq"]
+radius = 31.0
+
+[node name="HeathPack" type="Area2D"]
+script = ExtResource("1_ir4ue")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(387.5, 327)
+scale = Vector2(1.1874996, 1.1666666)
+texture = ExtResource("2_sbvhd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(387, 327)
+shape = SubResource("CircleShape2D_ghfaq")

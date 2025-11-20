@@ -15,5 +15,5 @@ scale = Vector2(1.1874996, 1.1666666)
 texture = ExtResource("2_sbvhd")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(387, 327)
+position = Vector2(388, 326)
 shape = SubResource("CircleShape2D_ghfaq")
